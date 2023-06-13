@@ -7,17 +7,23 @@ body {
   color: #34495e;
 }
 
+#heading {
+}
+
 #box {
   margin: auto;
+  margin-top: 60px;
   width: 50%;
   padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 20px;
 }
 
 input[type="text"] {
   border-radius: 10px;
   margin-left: 45px;
-  outline: 3px solid #8e44ad;
-  background-color: #d2b4de;
+  outline: 3px solid teal;
+  background-color: #a3e4d7;
   height: 30px;
   width: 40%;
   padding: 15px;
@@ -25,22 +31,11 @@ input[type="text"] {
   text-align: center;
 }
 
-input[type="text"]:focus {
-  border-radius: 10px;
-  padding: 5px;
-  margin-left: 30px;
-  outline: 3px solid teal;
-  background-color: #a3e4d7;
-  height: 30px;
-  width: 40%;
-  padding: 15px;
-  font-size: 40px;
-}
 #message {
   font-size: 30px;
 }
-#emoji{
-    font-size: 30px;
+#emoji {
+  font-size: 30px;
 }
 
 #h3 {
@@ -52,23 +47,38 @@ input[type="text"]:focus {
   margin-left: 55px;
 }
 
-
-
-@media (max-width:500px){
-    #message {
-  font-size: 30px;
-}
-
-#emoji{
-    margin-left:60px;
-    margin-top:-30px;
+@media (max-width: 500px) {
+  #message {
     font-size: 30px;
-}
+    margin-left: 5px;
+  }
 
-#h3 {
-    margin-top:-30px;
-  margin-left: 40px;
-  font-size: 20px;
-}
+  #emoji {
+    margin-left: 65px;
+    margin-top: -30px;
+    font-size: 30px;
+  }
 
+  #h3 {
+    margin-top: -30px;
+    margin-left: 35px;
+    font-size: 20px;
+  }
+
+  input[type="text"] {
+    border-radius: 10px;
+    margin-left: 40px;
+    outline: 3px solid teal;
+    background-color: #a3e4d7;
+    height: 30px;
+    width: 40%;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  #heading {
+    text-align: center;
+    margin-top: 50px;
+  }
 }
