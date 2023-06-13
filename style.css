@@ -19,7 +19,7 @@ input[type="text"] {
   outline: 3px solid #8e44ad;
   background-color: #d2b4de;
   height: 30px;
-  width: 30%;
+  width: 40%;
   padding: 15px;
   font-size: 40px;
   text-align: center;
@@ -32,19 +32,43 @@ input[type="text"]:focus {
   outline: 3px solid teal;
   background-color: #a3e4d7;
   height: 30px;
-  width: 110px;
+  width: 40%;
   padding: 15px;
   font-size: 40px;
 }
 #message {
   font-size: 30px;
 }
+#emoji{
+    font-size: 30px;
+}
 
 #h3 {
   margin-left: 60px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #h4 {
   margin-left: 55px;
+}
+
+
+
+@media (max-width:500px){
+    #message {
+  font-size: 30px;
+}
+
+#emoji{
+    margin-left:60px;
+    margin-top:-30px;
+    font-size: 30px;
+}
+
+#h3 {
+    margin-top:-30px;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
 }
