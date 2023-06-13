@@ -62,7 +62,7 @@ inputBox.addEventListener('keypress', function (event) {
     }
     if(index==10) {
         let cgpa = (totalCredit / divideCredit);
-        inputBox.value = "Your CGPA : " + cgpa.toFixed(2);
+        inputBox.value =cgpa.toFixed(2);
     }
     
 });

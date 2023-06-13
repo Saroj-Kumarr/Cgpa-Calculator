@@ -51,6 +51,7 @@ input[type="text"] {
   #message {
     font-size: 30px;
     margin-left: 5px;
+    font-weight: ;
   }
 
   #emoji {
@@ -68,17 +69,19 @@ input[type="text"] {
   input[type="text"] {
     border-radius: 10px;
     margin-left: 40px;
-    outline: 3px solid teal;
-    background-color: #a3e4d7;
+    outline: 3px solid #1b4f72;
+    background-color: #5dade2;
     height: 30px;
-    width: 40%;
+    width: 43%;
     padding: 15px;
     font-size: 40px;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   }
 
   #heading {
     text-align: center;
     margin-top: 50px;
+    font-size: 32px;
   }
 }
